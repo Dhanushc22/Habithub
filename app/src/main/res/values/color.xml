@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary_color">#6A1B9A</color> <!-- Deep purple -->
+    <color name="primary_dark">#4A148C</color>
+    <color name="primary_light">#9C4DCC</color>
+
+    <!-- Text Colors -->
+    <color name="text_color">#212121</color> <!-- Dark gray/black -->
+    <color name="text_muted">#757575</color> <!-- Medium gray -->
+
+    <!-- Card Background -->
+    <color name="card_color">#FFFFFF</color> <!-- White cards -->
+
+    <!-- General Background -->
+    <color name="bg_color">#F5F5F5</color> <!-- Light gray background -->
+
+    <!-- Accent / CTA -->
+    <color name="accent_color">#FF4081</color> <!-- Optional highlight color -->
+
+
+    <color name="purple_500">#6200EE</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="black">#000000</color>
+
+
+    </resources>
+
+

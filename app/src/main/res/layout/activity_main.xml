@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="0dp">
+
+        <!-- HERO SECTION -->
+        <FrameLayout
+            android:id="@+id/hero"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/bg_gradient">
+
+            <!-- Floating Circles -->
+            <View
+                android:id="@+id/circle1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:alpha="0.3"
+                android:background="@drawable/circle_shape" />
+
+            <View
+                android:id="@+id/circle2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="16dp"
+                android:alpha="0.3"
+                android:background="@drawable/circle_shape" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <!-- Text Block -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/hero_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Welcome to HabitHub"
+                        android:textColor="@android:color/white"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/hero_subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Track, build, and master your daily habits with joyful interactions."
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/btn_explore_features"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:backgroundTint="@android:color/white"
+                        android:text="Explore Features"
+                        android:textColor="@color/primary_color" />
+                </LinearLayout>
+
+                <!-- Hero Image -->
+                <ImageView
+                    android:id="@+id/hero_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:contentDescription="App preview"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- FEATURES HEADING -->
+        <TextView
+            android:id="@+id/tv_features_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="29dp"
+            android:paddingBottom="8dp"
+            android:text="Why HabitHub?"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- WHITE CARD CONTAINER -->
+        <LinearLayout
+            android:id="@+id/card_container"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_margin="18dp"
+            android:background="@color/card_color"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tv_habit_info_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="The Power of Habits"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_habit_info_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="16dp"
+                android:text="Habits are the invisible architecture of our daily lives. From morning routines to nighttime reflections, your habits shape who you are and what you achieve."
+                android:textColor="@color/text_muted"
+                android:textSize="10sp" />
+
+            <!-- INFO BLOCKS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!-- Block 1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🎯 Consistency Builds Success"
+                        android:textColor="@color/primary_color"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="Success is not a result of one big action, but of consistent, small efforts repeated regularly."
+                        android:textColor="@color/text_muted"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!-- Block 2 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🧠 Train Your Brain"
+                        android:textColor="@color/primary_color"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="Forming habits rewires your brain to crave positive actions—freeing mental energy for bigger decisions."
+                        android:textColor="@color/text_muted"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!-- Block 3 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📈 Track Progress, Stay Motivated"
+                        android:textColor="@color/primary_color"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:text="With HabitHub, you can visualize your growth through charts, streaks, and logs—celebrate wins and learn from slip-ups."
+                        android:textColor="@color/text_muted"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/quoteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“Motivation loading...”"
+            android:textSize="15sp"
+            android:textColor="#7A5AF8"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_quote_card"
+            android:elevation="4dp"/>
+
+        <!-- CTA SECTION -->
+        <LinearLayout
+            android:id="@+id/cta_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/primary_color"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tv_cta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ready to transform your habits?"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+            <Button
+                android:id="@+id/btn_get_started"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:padding="17dp"
+                android:backgroundTint="@android:color/white"
+                android:text="Get Started Now"
+                android:textColor="@color/primary_color" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/streakText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔥 Streak: 0 days"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#FF5722"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:id="@+id/unlockAchievement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌟 Tip: Start small, stay consistent, grow daily!"
+            android:textColor="	#607D8B"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
