@@ -38,14 +38,6 @@ habitadding page
 Habitprogress overview
 ![image alt](https://github.com/Dhanushc22/Habithub/blob/main/Screenshot_20250527-225122qwe.png?raw=true)
 
-
-
-
-
-
-
-
-
 ##Technologies Used
 #Language: Java / Kotlin
 #IDE: Android Studio
