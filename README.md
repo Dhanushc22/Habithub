@@ -36,7 +36,7 @@ habitadding page
 ![image alt](https://github.com/Dhanushc22/Habithub/blob/main/WhatsApp%20Image%202025-05-28%20at%2023.39.41_112d5bc5awe.jpg?raw=true)
 
 Habitprogress overview
-![image alt]()
+![image alt](https://github.com/Dhanushc22/Habithub/blob/main/Screenshot_20250527-225122qwe.png?raw=true)
 
 
 
