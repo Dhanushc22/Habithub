@@ -29,7 +29,7 @@ Stay on track with daily streak counters and bite-sized habit tips to keep you i
 Runs smooth on most Android phones. No sign-in or internet required — your data stays on your device.
 
 ##ScreenShot
-
+![image alt](https://github.com/Dhanushc22/Habithub/blob/main/Screenshot_20250528-233832qwe.png?raw=true)
 
 
 
