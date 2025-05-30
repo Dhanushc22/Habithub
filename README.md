@@ -1,55 +1,101 @@
-# Habithub
-This is my first GitHub repository! The application helps you track daily habits and improve your routines.
+# 🌱 HabitHub
 
-##What is HabitHub?
-HabitHub is a simple and powerful Android app that helps you track your habits, stay motivated, and build routines that stick.
-With just a few taps, you can log your daily habits, visualize your progress, and watch your consistency grow. Whether it’s reading, coding, working out, or meditating — HabitHub keeps you on track.
+[![Stars](https://img.shields.io/github/stars/Dhanushc22/Habithub?style=flat-square)](https://github.com/Dhanushc22/Habithub/stargazers) [![Forks](https://img.shields.io/github/forks/Dhanushc22/Habithub?style=flat-square)](https://github.com/Dhanushc22/Habithub/network/members) [![License: MIT](https://img.shields.io/github/license/Dhanushc22/Habithub?style=flat-square)](https://github.com/Dhanushc22/Habithub/blob/main/LICENSE)
 
-##How My Application Works
-When you launch the HabitHub app, you’re first greeted with the Home Page, which introduces you to the core idea of building better habits. It includes motivational quotes, an overview of how habits shape our lives, and a daily streak tracker that keeps you inspired.From there, tapping "Get Started Now" takes you to the Habitree screen. Here, you can:
-•	Select multiple habits (e.g., Coding, Reading, Meditating).
-•	Enter the amount of time (in minutes) you’ve spent on each habit.
-•	Log all selected habits at once.
-Once you've logged your activities, tapping "Check Your Status" leads you to the Habit Progress Overview.
-In this section:
-•	A chart compares your habit activity for Today vs. Yesterday.
-•	You can view your Weekly Total Time spent on habits.
-•	A Summary shows the number of habits logged and the total time spent today.
-•	Horizontal bars visualize the time spent on each habit, making your progress easy to understand at a glance.
-HabitHub turns your daily routines into visual progress, helping you stay motivated and consistent over time.
+**The ultimate Android habit-tracking companion**
 
-##Key Features
-#Log Multiple Habits at Once
-Quickly select habits and log how much time you spent today — all in one go.
-#Visual Progress Dashboard
-Compare your progress today vs. yesterday, view weekly totals, and see how your time is spent.
-#Daily Streaks & Motivational Tips
-Stay on track with daily streak counters and bite-sized habit tips to keep you inspired.
-#Fast, Clean & Offline-First
-Runs smooth on most Android phones. No sign-in or internet required — your data stays on your device.
+Welcome to HabitHub, an Android app designed to help you log daily habits, visualize progress, and build lasting routines. 🚀
 
-##ScreenShot
-home page
-![image alt](https://github.com/Dhanushc22/Habithub/blob/main/Screenshot_20250528-233832qwe.png?raw=true)
+---
 
-habitadding page
-![image alt](https://github.com/Dhanushc22/Habithub/blob/main/WhatsApp%20Image%202025-05-28%20at%2023.39.41_112d5bc5awe.jpg?raw=true)
+## 📑 Table of Contents
 
-Habitprogress overview
-![image alt](https://github.com/Dhanushc22/Habithub/blob/main/Screenshot_20250527-225122qwe.png?raw=true)
+- [What is HabitHub?](#what-is-habithub)
+- [How It Works](#how-it-works)
+- [Key Features](#key-features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-##Technologies Used
-#Language: Java / Kotlin
-#IDE: Android Studio
-#UI Framework: Android XML Layouts / Jetpack Compose (specify based on your implementation)
+---
 
-Help HabitHub grow! Your skills can make a difference — whether it’s enhancing the design, optimizing performance, or adding new features. Fork the project, make your magic, and submit a pull request!
-Have an idea to make HabitHub even better? Jump in and contribute! Fork the repo, create a branch, and send over a pull request. Whether it's a new feature, bug fix, or UI improvement — every contribution counts!
+## 🤔 What is HabitHub?
 
+HabitHub is a simple yet powerful Android application that helps you:
 
+- 🔥 Track multiple habits in one go  
+- 📊 Visualize your progress with intuitive charts  
+- ✅ Maintain daily streaks and stay motivated  
 
+Whether it’s reading, coding, working out, or meditating — HabitHub keeps you on track.
 
+---
 
+## ⚙️ How It Works
 
+1. **Home Page**  
+   - Motivational quote & overview of habit-building benefits  
+   - Daily streak tracker to keep your momentum  
 
+2. **Habitree Screen** (Tap "Get Started Now"):  
+   - Select one or more habits (e.g., Coding, Reading, Meditating)  
+   - Enter time spent (in minutes)  
+   - Log all activities with a single tap  
+
+3. **Progress Overview** (Tap "Check Your Status"):  
+   - Compare Today’s vs. Yesterday’s habit activity in a chart  
+   - View Weekly total time spent on habits  
+   - Summary: number of habits logged & total time today  
+   - Horizontal bars for a quick glance at each habit’s duration  
+
+HabitHub transforms daily routines into visual progress, helping you stay focused and consistent.
+
+---
+
+## 🌟 Key Features
+
+- **Log Multiple Habits at Once** — Quickly select & log habits in a single action.  
+- **Visual Progress Dashboard** — Compare day-to-day progress and weekly totals.  
+- **Daily Streaks & Tips** — Stay motivated with streak counters and bite-sized tips.  
+- **Offline-First** — No internet or sign-in required; your data stays on your device.  
+- **Fast & Clean UI** — Smooth performance on most Android devices.
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img width="200" src="https://github.com/Dhanushc22/Habithub/raw/main/Screenshot_20250528-233832qwe.png" alt="Home Page" />
+  <img width="200" src="https://github.com/Dhanushc22/Habithub/raw/main/WhatsApp%20Image%202025-05-28%20at%2023.39.41_112d5bc5awe.jpg" alt="Add Habits" />
+  <img width="200" src= "https://github.com/Dhanushc22/Habithub/raw/main/Screenshot_20250527-225122qwe.png"alt="Progress Overview" />
+</p>
+
+---
+
+## 🛠️ Technologies Used
+
+- **Language:** Java / Kotlin  
+- **IDE:** Android Studio  
+- **UI Framework:** Android XML Layouts / Jetpack Compose  
+
+---
+
+## 🤝 Contributing
+
+Your contributions make HabitHub better! Feel free to:
+
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature/YourFeature`)  
+3. Commit your changes (`git commit -m 'Add cool feature'`)  
+4. Push to the branch (`git push origin feature/YourFeature`)  
+5. Open a Pull Request  
+
+We welcome enhancements in design, performance optimizations, or new features. Let’s build better habits together! 🙌
+
+---
+## 🏁 Getting Started
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Dhanushc22/Habithub.git
 
