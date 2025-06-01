@@ -1,140 +1,100 @@
-Here’s a professionally crafted README.md file for your BinaryBox App, built with Android Studio using Java and XML. This README is visually structured, highlights all your features including security, binary conversion, and UI customizability (background color toggle), and includes sections for screenshots and more.
+# 🌱 HabitHub
 
+[![Stars](https://img.shields.io/github/stars/Dhanushc22/Habithub?style=flat-square)](https://github.com/Dhanushc22/Habithub/stargazers) [![Forks](https://img.shields.io/github/forks/Dhanushc22/Habithub?style=flat-square)](https://github.com/Dhanushc22/Habithub/network/members) [![License: MIT](https://img.shields.io/github/license/Dhanushc22/Habithub?style=flat-square)](https://github.com/Dhanushc22/Habithub/blob/main/LICENSE)
 
----
+**The ultimate Android habit-tracking companion**
 
-# 📦 BinaryBox App
-
-> ⚡ Convert any file to binary (0s and 1s) and back securely, instantly, and entirely in your browser – now available as an Android app!
-
----
-
-## 🔐 What is BinaryBox?
-
-**BinaryBox App** is a privacy-first tool that allows users to convert any file into a binary string and back into its original format — **locally and securely**, without uploading any data to a server.
-
-Whether you're looking to **secure sensitive data**, perform offline **binary encoding/decoding**, or simply explore how file data works under the hood — BinaryBox provides a simple, elegant, and powerful interface.
+Welcome to HabitHub, an Android app designed to help you log daily habits, visualize progress, and build lasting routines. 🚀
 
 ---
 
-## ✨ Features
+## 📑 Table of Contents
 
-- 🔁 **Two-Way Conversion**:
-  - **File → Binary**: Upload any file and get a binary string output.
-  - **Binary → File**: Paste or upload a binary string file and download the original file.
-
-- 🛡️ **100% Local Processing**:
-  - No internet? No problem.
-  - All conversions are done **entirely in your browser/app**.
-  - No server interaction — your files never leave your device.
-
-- 🎨 **Customizable Background Theme**:
-  - Choose between multiple background colors to enhance visual comfort.
-  - Switch between light and themed modes seamlessly.
-
-- ⚡ **Fast & Lightweight**:
-  - Built with performance in mind using Java and XML on Android Studio.
-  - Smooth user experience even on low-resource devices.
+- [What is HabitHub?](#what-is-habithub)
+- [How It Works](#how-it-works)
+- [Key Features](#key-features)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 📲 How It Works
+## 🤔 What is HabitHub?
 
-### 1️⃣ Choose Your Mode
-- Tap **"File → Binary"** to convert a file into binary.
-- Tap **"Binary → File"** to reverse the binary string back to the original file.
+HabitHub is a simple yet powerful Android application that helps you:
 
-### 2️⃣ Input & Convert
-- Upload the file or paste the binary string.
-- The app does the magic locally — no server required.
+- 🔥 Track multiple habits in one go  
+- 📊 Visualize your progress with intuitive charts  
+- ✅ Maintain daily streaks and stay motivated  
 
-### 3️⃣ Save or Copy
-- Download the converted file or copy the binary string instantly.
+Whether it’s reading, coding, working out, or meditating — HabitHub keeps you on track.
+
+---
+
+## ⚙️ How It Works
+
+1. **Home Page**  
+   - Motivational quote & overview of habit-building benefits  
+   - Daily streak tracker to keep your momentum  
+
+2. **Habitree Screen** (Tap "Get Started Now"):  
+   - Select one or more habits (e.g., Coding, Reading, Meditating)  
+   - Enter time spent (in minutes)  
+   - Log all activities with a single tap  
+
+3. **Progress Overview** (Tap "Check Your Status"):  
+   - Compare Today’s vs. Yesterday’s habit activity in a chart  
+   - View Weekly total time spent on habits  
+   - Summary: number of habits logged & total time today  
+   - Horizontal bars for a quick glance at each habit’s duration  
+
+HabitHub transforms daily routines into visual progress, helping you stay focused and consistent.
+
+---
+
+## 🌟 Key Features
+
+- **Log Multiple Habits at Once** — Quickly select & log habits in a single action.  
+- **Visual Progress Dashboard** — Compare day-to-day progress and weekly totals.  
+- **Daily Streaks & Tips** — Stay motivated with streak counters and bite-sized tips.  
+- **Offline-First** — No internet or sign-in required; your data stays on your device.  
+- **Fast & Clean UI** — Smooth performance on most Android devices.
 
 ---
 
 ## 🖼️ Screenshots
 
-| Home Screen | Binary to File | File to Binary | Theme Toggle |
-|-------------|----------------|----------------|--------------|
-| ![Home](screenshots/home_screen.png) | ![Binary to File](screenshots/binary_to_file.png) | ![File to Binary](screenshots/file_to_binary.png) | ![Theme](screenshots/theme_toggle.png) |
-
-> _Screenshots demonstrate live theme switching and intuitive navigation._
-
----
-
-## 🛠️ Built With
-
-- **Language:** Java
-- **UI Layout:** XML
-- **IDE:** Android Studio
-- **Architecture:** 100% client-side processing for maximum privacy
+<p align="center">
+  <img width="200" src="https://github.com/Dhanushc22/Habithub/raw/main/Screenshot_20250528-233832qwe.png" alt="Home Page" />
+  <img width="200" src="https://github.com/Dhanushc22/Habithub/raw/main/WhatsApp%20Image%202025-05-28%20at%2023.39.41_112d5bc5awe.jpg" alt="Add Habits" />
+  <img width="200" src= "https://github.com/Dhanushc22/Habithub/raw/main/Screenshot_20250527-225122qwe.png"alt="Progress Overview" />
+</p>
 
 ---
 
-## 🧠 Why It Matters
+## 🛠️ Technologies Used
 
-In a world filled with cloud uploads and data privacy concerns, BinaryBox empowers users to:
-
-- 🛡️ Keep their **sensitive data secure**
-- 🚫 Avoid unnecessary **cloud exposure**
-- 🧪 Explore **binary structures** of files in a practical way
-
-> _"Security by design. Simplicity by default."_
+- **Language:** Java / Kotlin  
+- **IDE:** Android Studio  
+- **UI Framework:** Android XML Layouts / Jetpack Compose  
 
 ---
 
-## 🚀 Future Improvements (Planned)
+## 🤝 Contributing
 
-- Dark mode toggle
-- File preview before conversion
-- Share binary string directly from app
-- Customizable binary chunking (e.g., group by 8-bit blocks)
+Your contributions make HabitHub better! Feel free to:
 
----
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature/YourFeature`)  
+3. Commit your changes (`git commit -m 'Add cool feature'`)  
+4. Push to the branch (`git push origin feature/YourFeature`)  
+5. Open a Pull Request  
 
-## 📥 Installation
-
-1. Clone this repository or download the APK.
-2. Install the APK on your Android device.
-3. Launch and start converting files to/from binary instantly!
+We welcome enhancements in design, performance optimizations, or new features. Let’s build better habits together! 🙌
 
 ---
-
-## 👨‍💻 Developer Info
-
-- **App Creator:** [Your Name or Handle]
-- **Contact:** [Your Email or GitHub link]
-- **Tech Stack:** Java + XML (Android)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 💬 Feedback
-
-Have suggestions or found a bug? Feel free to open an issue or pull request. Your input is always welcome!
-
----
-
-
----
-
-✅ Next Steps for You:
-
-1. Rename your screenshots to match those in the README (home_screen.png, binary_to_file.png, etc.) and place them in a /screenshots directory in your project root.
-
-
-2. Add this README.md file to the root of your project.
-
-
-3. Consider publishing your app on GitHub or the Play Store with a proper project structure.
-
-
-
-Would you like me to generate a GitHub LICENSE file or provide a Play Store description too?
-
+## 🏁 Getting Started
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Dhanushc22/Habithub.git
